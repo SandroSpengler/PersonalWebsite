@@ -1,6 +1,4 @@
-import React from "react";
-
-const Header = () => {
+const Header = (props: any) => {
   return (
     <div>
       <p>Header</p>
