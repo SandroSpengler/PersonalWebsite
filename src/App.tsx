@@ -1,3 +1,4 @@
+import { Grid } from "@mui/material";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
@@ -14,11 +15,17 @@ function App() {
       </div>
 
       <main>
-        <Routes>
-          <Route path="*" element={<HomePage />}></Route>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="home" element={<HomePage />}></Route>
-        </Routes>
+        <Grid container columnSpacing={{ xs: 0, sm: 2, lg: 4 }} justifyContent="center" style={{ marginTop: "5%" }}>
+          <Grid item xs={0} md={2.5}></Grid>
+          <Grid item xs={10} md={7}>
+            <Routes>
+              <Route path="*" element={<HomePage />}></Route>
+              <Route path="/" element={<HomePage />}></Route>
+              <Route path="home" element={<HomePage />}></Route>
+            </Routes>
+          </Grid>
+          <Grid item xs={0} md={2.5}></Grid>
+        </Grid>
       </main>
 
       <div className="footerWrapper">
