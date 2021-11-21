@@ -16,13 +16,16 @@ const Header = (props: any) => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
-          <Toolbar variant="dense" style={{ height: 60, display: "flex", justifyContent: "space-between" }}>
+        <AppBar position="static" style={{ backgroundColor: "#9e9e9e" }}>
+          <Toolbar
+            variant="dense"
+            color="secondary"
+            style={{ height: 60, display: "flex", justifyContent: "space-between" }}
+          >
             <IconButton
               edge="start"
               color="inherit"
               aria-label="menu"
-              sx={{ mr: 2 }}
               onClick={() => {
                 setshowNavigationDrawer(!showNavigationDrawer);
               }}
@@ -31,16 +34,16 @@ const Header = (props: any) => {
             </IconButton>
 
             <div>
-              <Link color="secondary" href="/" style={{ color: "white", margin: 10 }}>
+              <Link href="/" underline="hover" style={{ color: "white", margin: 10 }}>
                 Home
               </Link>
-              <Link color="secondary" href="/page1" style={{ color: "white", margin: 10 }}>
+              <Link href="/page1" underline="hover" style={{ color: "white", margin: 10 }}>
                 Page
               </Link>
-              <Link color="secondary" href="/page1" style={{ color: "white", margin: 10 }}>
+              <Link href="/page1" underline="hover" style={{ color: "white", margin: 10 }}>
                 Page
               </Link>
-              <Link color="secondary" href="/page1" style={{ color: "white", margin: 10 }}>
+              <Link href="/page1" underline="hover" style={{ color: "white", margin: 10 }}>
                 Page
               </Link>
             </div>
