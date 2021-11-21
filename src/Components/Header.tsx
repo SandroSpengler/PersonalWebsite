@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, IconButton, Link, Toolbar } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import NavigationDrawer from "./NavigationDrawer";
 
@@ -17,7 +17,7 @@ const Header = (props: any) => {
     <div>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
-          <Toolbar variant="dense" style={{ height: 60 }}>
+          <Toolbar variant="dense" style={{ height: 60, display: "flex", justifyContent: "space-between" }}>
             <IconButton
               edge="start"
               color="inherit"
@@ -29,9 +29,21 @@ const Header = (props: any) => {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" color="inherit" component="div">
-              Photos
-            </Typography>
+
+            <div>
+              <Link color="secondary" href="/" style={{ color: "white", margin: 10 }}>
+                Home
+              </Link>
+              <Link color="secondary" href="/page1" style={{ color: "white", margin: 10 }}>
+                Page
+              </Link>
+              <Link color="secondary" href="/page1" style={{ color: "white", margin: 10 }}>
+                Page
+              </Link>
+              <Link color="secondary" href="/page1" style={{ color: "white", margin: 10 }}>
+                Page
+              </Link>
+            </div>
           </Toolbar>
         </AppBar>
       </Box>

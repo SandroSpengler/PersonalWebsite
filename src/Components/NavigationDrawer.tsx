@@ -30,42 +30,42 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
       </Toolbar>
       <Divider />
       <List>
-        <ListItem button>
-          <HomeIcon style={{ marginRight: 10 }}></HomeIcon>
-          <Link href="/home" underline="none">
+        <Link href="/home" underline="none">
+          <ListItem button>
+            <HomeIcon style={{ marginRight: 10 }}></HomeIcon>
             <ListItemText primary={"Page"} />
-          </Link>
-        </ListItem>
+          </ListItem>
+        </Link>
 
-        <ListItem button>
-          <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-          <Link href="/page1" underline="none">
+        <Link href="/page1" underline="none">
+          <ListItem button>
+            <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <ListItemText primary={"Page"} />
-          </Link>
-        </ListItem>
+          </ListItem>
+        </Link>
 
-        <ListItem button>
-          <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-          <Link href="/home" underline="none">
+        <Link href="/page1" underline="none">
+          <ListItem button>
+            <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <ListItemText primary={"Page"} />
-          </Link>
-        </ListItem>
+          </ListItem>
+        </Link>
       </List>
       <Divider />
       <List>
-        <ListItem button>
-          <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-          <Link href="/home" underline="none">
+        <Link href="/page1" underline="none">
+          <ListItem button>
+            <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <ListItemText primary={"About"} />
-          </Link>
-        </ListItem>
+          </ListItem>
+        </Link>
 
-        <ListItem button>
-          <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-          <Link href="/home" underline="none">
+        <Link href="/page1" underline="none">
+          <ListItem button>
+            <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <ListItemText primary={"Other"} />
-          </Link>
-        </ListItem>
+          </ListItem>
+        </Link>
       </List>
     </Container>
   );
