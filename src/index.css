@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,12 +11,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.headerWrapper {
+/* .headerWrapper {
   width: 100%;
   background: grey;
   height: 75px;
   align-items: center;
-}
+} */
 
 .footerWrapper {
   position: fixed;
