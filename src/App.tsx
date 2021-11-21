@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+import Footer from "./Components/Layout/Footer";
+import Header from "./Components/Layout/Header";
 import HomePage from "./Pages/HomePage";
 
 function App() {
