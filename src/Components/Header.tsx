@@ -16,7 +16,7 @@ const Header = (props: any) => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" style={{ backgroundColor: "#9e9e9e" }}>
+        <AppBar position="static" style={{ backgroundColor: "#10162b" }}>
           <Toolbar
             variant="dense"
             color="secondary"
