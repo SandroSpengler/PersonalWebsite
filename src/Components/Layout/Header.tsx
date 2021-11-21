@@ -13,12 +13,6 @@ const Header = (props: any) => {
     return showNavigationDrawer;
   };
 
-  const styles = {
-    paper: {
-      background: "blue",
-    },
-  };
-
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>

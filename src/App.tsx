@@ -22,6 +22,7 @@ function App() {
               <Route path="*" element={<HomePage />}></Route>
               <Route path="/" element={<HomePage />}></Route>
               <Route path="home" element={<HomePage />}></Route>
+              <Route path="page1" element={<HomePage />}></Route>
             </Routes>
           </Grid>
           <Grid item xs={0} md={2.5}></Grid>
