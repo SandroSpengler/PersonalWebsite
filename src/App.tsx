@@ -15,9 +15,8 @@ function App() {
       </div>
 
       <main>
-        <Grid container columnSpacing={{ xs: 0, sm: 2, lg: 4 }} justifyContent="center" style={{ marginTop: "5%" }}>
-          <Grid item xs={0} md={2.5}></Grid>
-          <Grid item xs={10} md={7}>
+        <Grid container style={{ marginTop: "5%", padding: "25px", display: "left" }}>
+          <Grid item xs={12} md={12}>
             <Routes>
               <Route path="*" element={<HomePage />}></Route>
               <Route path="/" element={<HomePage />}></Route>
@@ -25,7 +24,6 @@ function App() {
               <Route path="page1" element={<HomePage />}></Route>
             </Routes>
           </Grid>
-          <Grid item xs={0} md={2.5}></Grid>
         </Grid>
       </main>
 
