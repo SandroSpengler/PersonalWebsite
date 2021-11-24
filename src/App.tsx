@@ -5,6 +5,7 @@ import "./App.css";
 
 import Footer from "./Components/Layout/Footer";
 import Header from "./Components/Layout/Header";
+import FrontEnd from "./Pages/FrontEnd";
 import HomePage from "./Pages/HomePage";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
               <Route path="*" element={<HomePage />}></Route>
               <Route path="/" element={<HomePage />}></Route>
               <Route path="home" element={<HomePage />}></Route>
-              <Route path="page1" element={<HomePage />}></Route>
+              <Route path="frontend" element={<FrontEnd />}></Route>
             </Routes>
           </Grid>
         </Grid>
