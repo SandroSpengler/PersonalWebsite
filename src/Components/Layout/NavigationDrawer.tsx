@@ -37,21 +37,33 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
         <Link href="/home" underline="none">
           <ListItem button>
             <HomeIcon style={{ marginRight: 10 }}></HomeIcon>
-            <ListItemText primary={"Page"} />
+            <Typography fontSize={16} color="white" display="block" variant="caption">
+              Home
+            </Typography>
           </ListItem>
         </Link>
-
         <Link href="/page1" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-            <ListItemText primary={"Page"} />
+            <Typography fontSize={16} color="white" display="block" variant="caption">
+              React
+            </Typography>
           </ListItem>
         </Link>
-
         <Link href="/page1" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-            <ListItemText primary={"Page"} />
+            <Typography fontSize={16} color="white" display="block" variant="caption">
+              Angular
+            </Typography>
+          </ListItem>
+        </Link>
+        <Link href="/page1" underline="none">
+          <ListItem button>
+            <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
+            <Typography fontSize={16} color="white" display="block" variant="caption">
+              Java Script
+            </Typography>
           </ListItem>
         </Link>
       </List>
@@ -60,14 +72,18 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
         <Link href="/page1" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-            <ListItemText primary={"About"} />
+            <Typography fontSize={16} color="white" display="block" variant="caption">
+              About
+            </Typography>
           </ListItem>
         </Link>
 
         <Link href="/page1" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
-            <ListItemText primary={"Other"} />
+            <Typography fontSize={16} color="white" display="block" variant="caption">
+              Other
+            </Typography>
           </ListItem>
         </Link>
       </List>

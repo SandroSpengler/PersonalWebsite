@@ -37,14 +37,14 @@ const Header = (props: any) => {
               <Link href="/" underline="hover" style={{ color: "white", margin: 10 }}>
                 Home
               </Link>
-              <Link href="/page1" underline="hover" style={{ color: "white", margin: 10 }}>
-                Page
+              <Link href="/frontend" underline="hover" style={{ color: "white", margin: 10 }}>
+                Front End
               </Link>
-              <Link href="/page1" underline="hover" style={{ color: "white", margin: 10 }}>
-                Page
+              <Link href="/backend" underline="hover" style={{ color: "white", margin: 10 }}>
+                Back End
               </Link>
-              <Link href="/page1" underline="hover" style={{ color: "white", margin: 10 }}>
-                Page
+              <Link href="/devops" underline="hover" style={{ color: "white", margin: 10 }}>
+                Dev Ops
               </Link>
             </div>
           </Toolbar>
