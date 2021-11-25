@@ -32,7 +32,7 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
             </Typography>
           </ListItem>
         </Link>
-        <Link href="/page1" underline="none">
+        <Link href="/frontend/react" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <Typography fontSize={16} color="white" display="block" variant="caption">
@@ -40,7 +40,7 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
             </Typography>
           </ListItem>
         </Link>
-        <Link href="/page1" underline="none">
+        <Link href="/frontend/angular" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <Typography fontSize={16} color="white" display="block" variant="caption">
@@ -48,7 +48,7 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
             </Typography>
           </ListItem>
         </Link>
-        <Link href="/page1" underline="none">
+        <Link href="/frontend/js" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <Typography fontSize={16} color="white" display="block" variant="caption">
@@ -59,7 +59,7 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
       </List>
       <Divider />
       <List>
-        <Link href="/page1" underline="none">
+        <Link href="/about" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <Typography fontSize={16} color="white" display="block" variant="caption">
@@ -68,7 +68,7 @@ const NavigationDrawer = (props: { show: boolean; updateShow: any }) => {
           </ListItem>
         </Link>
 
-        <Link href="/page1" underline="none">
+        <Link href="/other" underline="none">
           <ListItem button>
             <ArrowForwardIosIcon style={{ marginRight: 10 }}></ArrowForwardIosIcon>
             <Typography fontSize={16} color="white" display="block" variant="caption">

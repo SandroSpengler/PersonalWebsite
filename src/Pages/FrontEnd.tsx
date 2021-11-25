@@ -1,19 +1,13 @@
-import {
-  Card,
-  CardActionArea,
-  CardContent,
-  Grid,
-  IconButton,
-  ImageList,
-  ImageListItem,
-  ImageListItemBar,
-} from "@mui/material";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { Card, CardActionArea, CardContent, Grid, ImageListItem } from "@mui/material";
 
 const FrontEnd = (props: any) => {
   const cardStyles = {
     backgroundColor: "#182333",
     color: "white",
+    fontSize: {
+      xs: "16px",
+      lg: "22px",
+    },
     width: {
       xs: "100%",
       lg: "100%",
