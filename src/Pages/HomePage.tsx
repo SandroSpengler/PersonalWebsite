@@ -1,4 +1,4 @@
-import { Card, CardContent, Container, Grid, Paper, Typography } from "@mui/material";
+import { Card, CardContent, Grid, Paper, Typography } from "@mui/material";
 
 const HomePage = (props: any) => {
   const cardStyles = {

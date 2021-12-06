@@ -34,7 +34,7 @@ const Header = (props: any) => {
             </IconButton>
 
             <div>
-              <Link href="/" underline="hover" style={{ color: "white", margin: 5 }}>
+              <Link href="/home" underline="hover" style={{ color: "white", margin: 5 }}>
                 Home
               </Link>
               <Link href="/frontend" underline="hover" style={{ color: "white", margin: 5 }}>
