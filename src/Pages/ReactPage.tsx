@@ -2,7 +2,7 @@ import { Grid, Typography, Link } from "@mui/material";
 
 // ToDo: Use global Fontsizes / Styling
 
-const ReactPage = () => {
+const ReactPage = (props: any) => {
   return (
     <Grid container rowSpacing={{ xs: 2, lg: 10 }} columnSpacing={{ xs: 0.5, lg: 8 }}>
       <Grid item xs={12} md={10}>
@@ -17,16 +17,16 @@ const ReactPage = () => {
           </p>
         </Typography>
         <div style={{ display: "Flex", justifyContent: "space-around", marginTop: 15 }}>
-          <Link href="/home" underline="hover" style={{ color: "white", margin: 5 }}>
+          <Link href="/frontend/react/nodemongo" underline="hover" style={{ color: "white", margin: 5 }}>
             REST Nodejs + MongoDB
           </Link>
-          <Link href="/frontend" underline="hover" style={{ color: "white", margin: 5 }}>
+          <Link href="/frontend/react/coresql" underline="hover" style={{ color: "white", margin: 5 }}>
             REST Asp.net Core + MySqlServer
           </Link>
-          <Link href="/backend" underline="hover" style={{ color: "white", margin: 5 }}>
+          <Link href="/frontend/react/nodepostgres" underline="hover" style={{ color: "white", margin: 5 }}>
             REST Nodejs + Postgres
           </Link>
-          <Link href="/devops" underline="hover" style={{ color: "white", margin: 5 }}>
+          <Link href="/frontend/react/graph" underline="hover" style={{ color: "white", margin: 5 }}>
             Graphql + ...
           </Link>
         </div>

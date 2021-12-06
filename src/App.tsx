@@ -7,6 +7,7 @@ import Footer from "./Components/Layout/Footer";
 import Header from "./Components/Layout/Header";
 import FrontEnd from "./Pages/FrontEnd";
 import HomePage from "./Pages/HomePage";
+import ReactNodeMongo from "./Pages/ReactNodeMongo";
 import ReactPage from "./Pages/ReactPage";
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
               <Route path="*" element={<HomePage />}></Route>
               <Route path="/" element={<HomePage />}></Route>
               <Route path="home" element={<HomePage />}></Route>
-              <Route path="frontend/react" element={<ReactPage />}></Route>
               <Route path="frontend" element={<FrontEnd />}></Route>
+              <Route path="frontend/react" element={<ReactPage />}></Route>
+              <Route path="frontend/react/nodemongo" element={<ReactNodeMongo />}></Route>
             </Routes>
           </Grid>
         </Grid>
