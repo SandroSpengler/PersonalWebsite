@@ -1,8 +1,8 @@
-import { Grid, Typography, Link } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 const ReactNodeMongo = (props: any) => {
-  return (
-    <Grid container rowSpacing={{ xs: 2, lg: 10 }} columnSpacing={{ xs: 0.5, lg: 8 }}>
+  const initialDescription = () => {
+    return (
       <Grid item xs={12} md={10}>
         <Typography variant="h5" component="div">
           <p>Move Rest-Api with NodeJs, Express and MongoDB</p>
@@ -22,6 +22,12 @@ const ReactNodeMongo = (props: any) => {
           <p> This is only a demo site to try it out. </p>
         </Typography>
       </Grid>
+    );
+  };
+
+  return (
+    <Grid container rowSpacing={{ xs: 2, lg: 10 }} columnSpacing={{ xs: 0.5, lg: 8 }}>
+      {initialDescription()}
     </Grid>
   );
 };
